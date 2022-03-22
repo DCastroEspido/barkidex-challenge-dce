@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat( auto-fit, minmax(120px, 1fr) );
+    grid-gap: 12px;
+    align-items: start;
+    margin-top:10px;
+}
+
+@media (min-width: 1024px) {
+    .container{
+        margin-left:20%;
+        margin-right: 20%;;
+    }
+}

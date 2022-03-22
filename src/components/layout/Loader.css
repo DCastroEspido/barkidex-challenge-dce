@@ -1,0 +1,19 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.loader-icon{
+    width: 48px;
+    animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
