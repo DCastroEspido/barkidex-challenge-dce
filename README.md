@@ -1,18 +1,5 @@
 ## Intructions
 
-
-## TO DO
-- Create the home page with the layout
-- - Create a component for a simple header
-- - Create a componente for a simple footer
-- Create a card with:
-- - Pokemon Image
-- - Number of the Pokemon
-- - Type of Pokemon
-- - In the hover, the image will show the text with the information of this pokemon
-- Create a Grid that includes an undefined number of PokeCards
-- Create a loader to use meanwhile the information is not loaded
-
 ## Available Scripts
 
 In the project directory, you can run:
