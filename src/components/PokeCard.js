@@ -8,7 +8,7 @@ const PokeCard = (props) => {
     const [pokemon, setPokemon] = useState({});
 
     useEffect(() => {
-        getPokemonInfo(props.pokemon.url).then((pokemon) => { setPokemon(pokemon); setTimeout(() => { setIsLoading(false) }, 2000) }).catch(err => {
+        getPokemonInfo(props.pokemon.url).then((pokemon) => { setPokemon(pokemon); setIsLoading(false) }).catch(err => {
             console.log(err);
         });;
     }, [props.pokemon.url]);

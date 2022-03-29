@@ -14,7 +14,7 @@ const Grid = (props) => {
            console.log(err);
         });
     }, [props.limit, props.offset]);
-    const pokemonCards = pokemonList.map((pokemon, index) => <PokeCard key={index} pokemon={pokemon}></PokeCard>)
+    const pokemonCards = pokemonList.map((pokemon, index) => <li><PokeCard key={index} pokemon={pokemon}></PokeCard></li>)
     if(isLoading){
         return (
             <>
@@ -24,9 +24,9 @@ const Grid = (props) => {
     }else{
     return (
         <>
-            <div className='container'>
+            <ol className='container'>
                 {pokemonCards}
-            </div>
+            </ol>
         </>
     )
 }
