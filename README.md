@@ -1,5 +1,8 @@
 ## Intructions
 
+## DEMO
+[demo available in https://barkidex.herokuapp.com/](https://barkidex.herokuapp.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
