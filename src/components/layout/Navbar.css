@@ -18,6 +18,11 @@ nav.scroll-down {
   top: -100%;
 }
 
+.link-no-styles{
+  text-decoration: none;
+  color: white;
+}
+
 .Logo {
  font-weight: 700;
  color:white;

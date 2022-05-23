@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 import './PokeCard.css'
 import { getPokemonInfo } from '../api/pokemonApi';
 import Loader from './layout/Loader';
@@ -8,14 +9,13 @@ const PokeCard = (props) => {
     const [pokemon, setPokemon] = useState({});
 
     useEffect(() => {
-        getPokemonInfo(props.pokemon.url).then((pokemon) => { setPokemon(pokemon); setIsLoading(false) }).catch(err => {
+        getPokemonInfo(props.pokemon.name).then((pokemon) => { setPokemon(pokemon); setIsLoading(false) }).catch(err => {
             console.log(err);
         });;
-    }, [props.pokemon.url]);
-
+    }, [props.pokemon.name]);
 
     return (
-        <>
+        <Link to={`/pokemon/${pokemon.name}`} key={pokemon.name}>
             <figure className='poke-container'>
                 {isLoading ?
                     <Loader></Loader>
@@ -27,7 +27,7 @@ const PokeCard = (props) => {
                         </dl>
                     </div>}
             </figure>
-        </>
+        </Link>
     )
 }
 export default PokeCard;

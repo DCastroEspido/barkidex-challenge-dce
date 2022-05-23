@@ -7,8 +7,6 @@ const Loader = () => {
         <>
             <div className='loader'>
                 <img className='loader-icon' alt='loading' src={loader}></img>
-                <br></br>
-                <p>Loading...</p>
             </div>
         </>
     )

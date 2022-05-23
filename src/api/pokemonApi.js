@@ -8,13 +8,12 @@ async function getPokemonList(limit, offset) {
     return response.json();
 }
 
-async function getPokemonInfo(url) {
-    const response = await fetch(url, {
+async function getPokemonInfo(name) {
+    const response = await fetch(baseApiUrl + `pokemon/${name}`, {
         cache: 'no-cache',
     });
     return response.json();
 }
-
 
 export { getPokemonList, getPokemonInfo };
 

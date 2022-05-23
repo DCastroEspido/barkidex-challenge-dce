@@ -1,0 +1,54 @@
+.active {
+  display: block;
+  margin: auto;
+  height: 275px;
+}
+
+.inactive {
+  display: none;
+}
+
+.detail-grid {
+  background-color: #fefefe;
+  border-radius:0.25em;
+  margin:50px;
+  padding:12px;
+  -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.poke-name {
+  text-transform: capitalize;
+  color: rgb(34, 127, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.poke-info {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  width: 50%;
+}
+
+.poke-info > p {
+  margin: 4px;
+  padding: 0;
+}
+
+.poke-types {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  width: 50%;
+}

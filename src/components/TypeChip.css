@@ -1,0 +1,84 @@
+.chip {
+    display: inline-block;
+    margin: 0.5em;
+    text-transform: capitalize;
+    border-radius: 0.25em;
+    padding:4px;
+    font-size: 12px;
+    margin:0;
+    margin-right: 10px;
+    font-weight: 600;
+    color:white;
+}
+
+.normal {
+    background-color: #a4a4a4;
+}
+
+.fire {
+    background-color: rgb(234, 132, 16);
+}
+
+.water {
+    background-color: rgb(0, 128, 255);
+}
+
+.electric {
+    background-color: rgb(216, 216, 30);
+}
+
+.grass {
+    background-color: rgb(80, 203, 80);
+}
+
+.psychic {
+    background-color: rgb(255, 0, 255);
+}
+
+.ice {
+    background-color: rgb(0, 255, 255);
+}
+
+.dragon {
+    background-color: rgb(0, 0, 255);
+}
+
+.fighting {
+    background-color: rgb(255, 0, 0);
+}
+
+.flying {
+    background-color: rgb(57, 166, 255);
+}
+
+.poison {
+    background-color: rgb(128, 0, 128);
+}
+
+.rock {
+    background-color: rgb(128, 128, 128);
+}
+
+.ground {
+    background-color: rgb(188, 140, 51);
+}
+
+.bug {
+    background-color: rgb(0, 128, 0);
+}
+
+.ghost {
+    background-color: rgb(0, 0, 128);
+}
+
+.steel {
+    background-color: rgb(192, 192, 192);
+}
+
+.sinister {
+    background-color: rgb(37, 37, 37);
+}
+
+.fairy {
+    background-color: rgb(240, 139, 255);
+}
